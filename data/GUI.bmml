@@ -1,0 +1,235 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1722" measuredH="1038" mockupW="1701" mockupH="1020">
+  <controls>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Arrow" x="478" y="235" w="174" h="93" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="__group__" x="493" y="328" w="409" h="169" measuredW="409" measuredH="169" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="409" h="169" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Add%20New%20Mailing%20Rule</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ComboBox" x="15" y="42" w="-1" h="-1" measuredW="73" measuredH="24" zOrder="1" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Project</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::ComboBox" x="103" y="42" w="-1" h="-1" measuredW="93" measuredH="24" zOrder="2" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Error%20Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="211" y="41" w="-1" h="-1" measuredW="76" measuredH="27" zOrder="3" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Frequency</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="302" y="41" w="-1" h="-1" measuredW="92" measuredH="27" zOrder="4" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Period%20%28mins%29</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="349" y="103" w="-1" h="-1" measuredW="45" measuredH="27" zOrder="5" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Add</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="283" y="103" w="-1" h="-1" measuredW="51" measuredH="27" zOrder="6" locked="false" isInGroup="26">
+          <controlProperties>
+            <text>Back</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="27" controlTypeID="__group__" x="21" y="18" w="472" h="265" measuredW="472" measuredH="265" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="472" h="265" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="27">
+          <controlProperties>
+            <text>A%20Web%20Page%0Ahttp%3A//</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="73" w="150" h="164" measuredW="150" measuredH="240" zOrder="1" locked="false" isInGroup="27">
+          <controlProperties>
+            <selectedIndex>2</selectedIndex>
+            <text>View%20Errors%0ASetting%0A-%20Mailing%20Rule%0A-%20Owner%0A-%20Project%0A-%20Error%20Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="165" y="82" w="-1" h="-1" measuredW="280" measuredH="81" zOrder="2" locked="false" isInGroup="27">
+          <controlProperties>
+            <text>Project%2C%20Type%2C%20Frequency%2C%20Period%20%28Mins%29%0AA%2C%20warning%2C%2030%2C%20120%0AB%2C%20warning%2C%2010%2C%2060</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="342" y="202" w="-1" h="-1" measuredW="118" measuredH="27" zOrder="3" locked="false" isInGroup="27">
+          <controlProperties>
+            <text>Insert%20New%20Rule</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="28" controlTypeID="__group__" x="21" y="644" w="801" h="265" measuredW="801" measuredH="265" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="801" h="265" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="28">
+          <controlProperties>
+            <text>A%20Web%20Page%0Ahttp%3A//</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="73" w="150" h="164" measuredW="150" measuredH="186" zOrder="1" locked="false" isInGroup="28">
+          <controlProperties>
+            <selectedIndex>1</selectedIndex>
+            <text>View%20Errors%0A-%20Error%20List%0A-%20Mail%20Logs%0ASetting%0A-%20Mailing%20Rule%0A-%20Owner%0A-%20Project%0A-%20Error%20Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="154" y="83" w="640" h="81" measuredW="640" measuredH="81" zOrder="2" locked="false" isInGroup="28">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="0" w="640" h="81" measuredW="659" measuredH="81" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Project%20%5Ev%2C%20Message%20%5Ev%2C%20First%20Time%20%5Ev%2C%20Last%20Time%20%5Ev%2C%20Count%2C%20Status%2C%20Detail%0AA%2C%20NullPointerException%3Anull%2C%2026-09-2014%2013%3A00%3A00%2C%2026-09-2014%2014%3A55%3A33%2C%2044%2C%20Mailed%0AA%2C%20NullPointerException%3Anull%2C%2024-09-2014%2013%3A00%3A00%2C%2024-09-2014%2014%3A55%3A33%2C%2044%2C%20Checked</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="590" y="21" w="-1" h="-1" measuredW="50" measuredH="27" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>View</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="590" y="50" w="-1" h="-1" measuredW="50" measuredH="27" zOrder="2" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>View</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="38" controlTypeID="__group__" x="866" y="856" w="396" h="182" measuredW="396" measuredH="182" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="396" h="182" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Error%20Details</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="9" y="32" w="-1" h="-1" measuredW="139" measuredH="27" zOrder="1" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Error%20Details</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="9" y="59" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="2" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Project</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="9" y="80" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="3" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Message</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="9" y="122" w="-1" h="-1" measuredW="72" measuredH="21" zOrder="4" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Stack%20Trace</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="9" y="101" w="-1" h="-1" measuredW="89" measuredH="21" zOrder="5" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Occurred%20Time</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="331" y="32" w="-1" h="-1" measuredW="50" measuredH="27" zOrder="6" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Next</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="243" y="32" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="7" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>Previous</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Arrow" x="812" y="756" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Button" x="1179" y="979" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Checked</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="__group__" x="961" y="23" w="472" h="265" measuredW="472" measuredH="265" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="472" h="265" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="49">
+          <controlProperties>
+            <text>A%20Web%20Page%0Ahttp%3A//</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="73" w="150" h="164" measuredW="150" measuredH="240" zOrder="1" locked="false" isInGroup="49">
+          <controlProperties>
+            <selectedIndex>4</selectedIndex>
+            <text>View%20Errors%0ASetting%0A-%20Mailing%20Rule%0A-%20Owner%0A-%20Project%0A-%20Error%20Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="165" y="82" w="272" h="81" measuredW="199" measuredH="81" zOrder="2" locked="false" isInGroup="49">
+          <controlProperties>
+            <text>Project%2C%20Owner%2C%20Edit%0AA%2C%20Tim%5C%2C%20Kary%5C%2C%20Nicky%0AB%2C%20Tim%5C%2C%20Alex</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="323" y="204" w="-1" h="-1" measuredW="134" measuredH="27" zOrder="3" locked="false" isInGroup="49">
+          <controlProperties>
+            <text>Insert%20New%20Project</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="388" y="103" w="-1" h="-1" measuredW="46" measuredH="27" zOrder="4" locked="false" isInGroup="49">
+          <controlProperties>
+            <text>Edit</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="388" y="134" w="-1" h="-1" measuredW="46" measuredH="27" zOrder="5" locked="false" isInGroup="49">
+          <controlProperties>
+            <text>Edit</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="54" controlTypeID="__group__" x="1542" y="276" w="180" h="210" measuredW="180" measuredH="210" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="180" h="210" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="54">
+          <controlProperties>
+            <text>Add/Edit%20Project</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="15" y="90" w="-1" h="-1" measuredW="52" measuredH="83" zOrder="1" locked="false" isInGroup="54">
+          <controlProperties>
+            <text>%5Bx%5D%20Tim%0A%5Bx%5D%20Kary%0A%5Bx%5D%20Nicky%0A%5B%20%5D%20Alex</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="15" y="34" w="-1" h="-1" measuredW="95" measuredH="27" zOrder="2" locked="false" isInGroup="54">
+          <controlProperties>
+            <text>Project%20Name</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="15" y="67" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="3" locked="false" isInGroup="54">
+          <controlProperties>
+            <text>Owner</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Arrow" x="1392" y="136" w="217" h="140" measuredW="150" measuredH="100" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Arrow" x="1417" y="235" w="125" h="92" measuredW="150" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Button" x="1673" y="427" w="-1" h="-1" measuredW="41" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>OK</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,4 @@
+services:
+#    wiz_error_log.example:
+#        class: Wiz\ErrorLogBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

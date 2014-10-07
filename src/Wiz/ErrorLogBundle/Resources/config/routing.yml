@@ -1,0 +1,3 @@
+wiz_error_log_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: WizErrorLogBundle:Default:index }

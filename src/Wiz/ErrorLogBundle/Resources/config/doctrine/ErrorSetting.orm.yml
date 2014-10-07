@@ -1,0 +1,27 @@
+Wiz\ErrorLogBundle\Entity\ErrorSetting:
+    type: entity
+    table: wiz_error_setting
+    
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+            
+    fields:
+        allowableFrequency:
+            type: integer
+        period:
+            type: integer
+            
+    manyToOne:
+        ErrorTypes:
+            targetEntity: Wiz\ErrorLogBundle\Entity\ErrorType
+            joinColumn:
+                name: ErrorTypeId
+                referencedColumnName: id
+        Projects:
+            targetEntity: Wiz\ErrorLogBundle\Entity\Project
+            joinColumn:
+                name: ProjectId
+                referencedColumnName: id

@@ -1,0 +1,19 @@
+Wiz\ErrorLogBundle\Entity\MailLog:
+    type: entity
+    table: wiz_mail_log
+    
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+            
+    fields:
+        occurredTime:
+            type: datetime
+    
+    manyToMany:
+        ErrorDetails:
+            targetEntity: Wiz\ErrorLogBundle\Entity\ErrorDetail
+            mappedBy: MailLogs
+            

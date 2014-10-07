@@ -1,0 +1,9 @@
+# app/config/routing.yml
+EnsJobeetBundle:
+    resource: "@EnsJobeetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wiz_error_log:
+    resource: "@WizErrorLogBundle/Resources/config/routing.yml"
+    prefix:   /
+

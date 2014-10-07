@@ -1,0 +1,19 @@
+Wiz\ErrorLogBundle\Entity\Project:
+    type: entity
+    table: wiz_project
+    
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+                
+    fields:
+        Name:
+            type: string
+            length: 250
+            
+    manyToMany:
+        Owners:
+            targetEntity: Wiz\ErrorLogBundle\Entity\Owner
+            mappedBy: Projects

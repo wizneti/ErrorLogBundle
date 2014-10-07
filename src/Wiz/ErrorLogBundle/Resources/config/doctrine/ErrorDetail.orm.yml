@@ -1,0 +1,45 @@
+Wiz\ErrorLogBundle\Entity\ErrorDetail:
+    type: entity
+    table: wiz_error_detail
+    
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+            
+    fields:
+        occurredTime:
+            type: datetime
+        message:
+            type: string
+            length: 250
+        stackTrace:
+            type: string
+        status:
+            type: array
+    
+    manyToOne:
+        Projects:
+            targetEntity: Wiz\ErrorLogBundle\Entity\Project
+            joinColumn:
+                name: ProjectId
+                referencedColumnName: id
+        ErrorTypes:
+            targetEntity: Wiz\ErrorLogBundle\Entity\ErrorType
+            joinColumn:
+                name: ErrorTypeId
+                referencedColumnName: id
+            
+    manyToMany:
+        MailLogs:
+            targetEntity: Wiz\ErrorLogBundle\Entity\MailLog
+            inversedBy: ErrorDetails
+            joinTable:
+                name: wiz_mailing_error
+                joinColumns:
+                    LogId:
+                        referencedColumnName: id
+                inverseJoinColumns:
+                    ErrorDetailId:
+                        referencedColumnName: id
